@@ -1,0 +1,231 @@
+body{
+     background-color:#1a2027 ;
+}
+
+
+.pt{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1px;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar li{
+    list-style: none;
+    padding: 0 25px;
+}
+
+.navbar li a{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.logo{
+    color: white;
+    font-size: 20px;
+    font-family:Arial;
+    font-weight: bolder;
+    margin-left: 80px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+  
+    
+}
+
+.logo a{
+ text-decoration: none;
+}
+
+p{
+    color: white;
+}
+.part1{
+    display: inline-block;
+    margin-left: 100px;
+    margin-top: 0px;
+}
+.create{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    font-size: 100px;
+    width:700px ;
+    line-height: 90px;
+    margin-bottom: 0px;
+}
+.design{
+    color: rgb(76, 143, 231);
+}
+.hire-button,.cv-button{
+    margin-top: 50px;
+    font-family: Arial;
+    font-size: 11px;
+}
+.hire-button{
+    background-color: rgb(76, 143, 231);
+    border: none;
+    width: 100px;
+    height: 30px;
+    color: white;
+    border-radius: 15px;
+}
+.cv-button{
+    background-color: rgb(63, 63, 87);
+    border: none;
+    width: 130px;
+    height:30px ;
+    color: white;
+    border-radius: 15px;
+    margin-left: 10px;
+}
+.image1{
+    width: 400px;
+    height: 500px;
+}
+.image{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 80px;
+    
+    
+}
+.image2{
+    width: 600px;
+    height: 550px;
+    padding-left: 150px;
+}
+.part2{
+    display: inline-block;
+    margin-left: 100px;
+}
+.about{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    font-size: 60px;
+    margin-bottom: 0px;
+}
+.lorem{
+    width: 350px;
+    margin-top: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+
+    
+}
+button{
+    height: 30px;
+    border: none;
+    border-radius: 15px;
+    color: white;
+    margin-top: 15px;
+}
+.all{
+    width: 60px;
+    background-color:  rgb(76, 143, 231);;
+}
+.ui,.ux{
+    width: 60px;
+    background-color: rgb(63, 63, 87) ;
+}
+.web{
+    width: 100px;
+    background-color:  rgb(63, 63, 87);
+}
+.part3{
+    padding-top: 60px;
+    padding-left: 70px;
+}
+.work-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 50px;
+    margin-left: 80px;
+}
+.work{
+    width: 300px;
+    border-radius: 20px;
+}
+.project{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    font-size: 60px;
+    margin-bottom: 0px;
+    width: 450px;
+}
+.image3{
+    width: 510px;
+    height: 400px;
+}
+.part4{
+    padding-left: 90px;
+    display: inline-block;
+}
+form{
+    display: inline-block;
+    width: 300px;
+    vertical-align: top;
+    margin-top: 100px;
+    margin-left: 120px;
+}
+form label{
+    color: white;
+    font-size: 12px;
+    display:flex;
+    margin-top: 15px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+form input{
+    border: none;
+    background-color:#292f36;
+    color:rgb(63,63,87); 
+    margin-top: 8px;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+.input1{
+    height: 50px;
+    width: 270px;
+}
+.input2{
+    height: 240px;
+    width: 570px;
+}
+.last-button{
+    color: white;
+    background-color:  rgb(28, 124, 248);
+    border: none;
+    width: 145px;
+    height: 30px;
+    margin-top: 20px;
+    border-radius: 30px;
+}
+.homeimg,.aboutimg,.contactimg{
+    width: 35px;
+    height: 35px;
+    background-image: none;
+    display: inline-block;
+    border-radius: 17.5px;
+}
+.fbimg,.igimg,.twimg,.ytimg{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px
+}
+.appicons{
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+   
